@@ -221,6 +221,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127574037-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-127574037-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -435,6 +473,28 @@
         
 
         <li class="nav-item">
+          <a class="nav-link " href="/collaborators/"><span>Collaborators</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
           <a class="nav-link " href="/project/"><span>Blog + Popular Press</span></a>
         </li>
 
@@ -509,6 +569,8 @@
     
       <li><a href="/talk/example/">Example Talk</a></li>
     
+      <li><a href="/collaborators/"></a></li>
+    
       <li><a href="/publications_citestyle/"></a></li>
     
       <li><a href="/teaching/"></a></li>
@@ -520,8 +582,6 @@
       <li><a href="/publication/nhb_2020/">Shifting attributions for poverty motivates opposition to inequality and enhances egalitarianism</a></li>
     
       <li><a href="/post/writing-technical-content/">Writing technical content in Academic</a></li>
-    
-      <li><a href="/post/jupyter/">Display Jupyter Notebooks with Academic</a></li>
     
   </ul>
   

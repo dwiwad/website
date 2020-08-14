@@ -221,6 +221,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127574037-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-127574037-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -440,6 +478,28 @@
         
 
         <li class="nav-item">
+          <a class="nav-link " href="/collaborators/"><span>Collaborators</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
           <a class="nav-link " href="/project/"><span>Blog + Popular Press</span></a>
         </li>
 
@@ -569,23 +629,24 @@ My goal when teaching is not only to foster a meaningful understanding of course
 <a href="/files/Teaching_Phil.pdf">here</a>.</p>
 <hr>
 <DIV align="center">
-  <h1>Classes Taught</h1>
+  <h1>Courses Taught</h1>
 </DIV>
 <h2 id="kellogg-school-of-management">Kellogg School of Management</h2>
-<p class="tab"><a href="/files/negotiations_syllabus.pdf">Negotiation Fundamentals, Part-Time MBA, Summer 2020</a></p>
+<div style="padding-left: 2em;"><a href="/files/negotiations_syllabus.pdf">Negotiation Fundamentals, Part-Time MBA, Summer 2020</a></div>
 <h2 id="simon-fraser-university">Simon Fraser University</h2>
-<p align="left"><a href="/files/social_syllabus.pdf">Introduction to Social Psychology, Winter 2019</a></p>
+<div style="padding-left: 2em;"><a href="/files/social_syllabus.pdf">Introduction to Social Psychology, Winter 2019</a></div>
 <hr>
 <DIV align="center">
   <h1>TA Experience</h1>
 </DIV>
 <h2 id="kellogg-school-of-management-1">Kellogg School of Management</h2>
-<p>Negotiations Fundamentals, Full Time MBA (2x), Spring 2020</p>
+<div style="padding-left: 2em;">Negotiations Fundamentals, Full Time MBA (2x), Spring 2020</div>
 <h2 id="simon-fraser-university-1">Simon Fraser University</h2>
-<p>Introduction to Social Psychology, Teaching Assistant (x6), 2013 - 2019<br>
+<div style="padding-left: 2em;">
+Introduction to Social Psychology, Teaching Assistant (x6), 2013 - 2019<br>
 Introduction to Data analysis in Psychology, Teaching Assistant (x2), 2014 - 2020<br>
 Introduction to Research Methods, Teaching Assistant (x7), 2016 - 2020<br>
-Psychology of Intergroup Relations, Teaching Assistant, Winter 2015 - Fall 2016<br></p>
+Psychology of Intergroup Relations, Teaching Assistant, Winter 2015 - Fall 2016<br></div>
 
     </div>
 
