@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sklearn | DYLAN WIWAD, Ph.D</title>
-    <link>https://dwiwad.github.io/tag/sklearn/</link>
-      <atom:link href="https://dwiwad.github.io/tag/sklearn/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/sklearn/</link>
+      <atom:link href="/tag/sklearn/index.xml" rel="self" type="application/rss+xml" />
     <description>sklearn</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Oct 2018 00:00:00 -0500</lastBuildDate>
     <image>
-      <url>https://dwiwad.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>sklearn</title>
-      <link>https://dwiwad.github.io/tag/sklearn/</link>
+      <link>/tag/sklearn/</link>
     </image>
     
     <item>
       <title>Maching Learning Tutorial: Predicting Car Prices with K-Nearest Neighbours (KNN) Regression</title>
-      <link>https://dwiwad.github.io/project/car_prices/</link>
+      <link>/project/car_prices/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 -0500</pubDate>
-      <guid>https://dwiwad.github.io/project/car_prices/</guid>
+      <guid>/project/car_prices/</guid>
       <description>&lt;h1 id=&#34;predicting-car-prices-with-knn-regression&#34;&gt;Predicting Car Prices with KNN Regression&lt;/h1&gt;
 &lt;p&gt;In this brief tutorial I am going to run through how to build, implement, and cross-validate a simple k-nearest neighbours (KNN) regression model. Simply put, KNN model is a variant of simple linear regression wherein we utilize information about neighbouring data points to predict an unknown outcome. To put a more concrete spin on this, and use the name quite literally, we can think about this in the context of your next door neighbours. If the outcome I wanted to predict was your personal income and didn&amp;rsquo;t have any other information about you, besides where you live, I might be wise to just ask your next door neighbours. I might decide to run a real life 4-nearest neighbours test. The two houses to the right of yours have a household incomes of $65,000 and $90,000 respectively, and the two to the left $100,000 and $72,000. In the simplest possible fashion I would then just assume you make somewhere in the ballpark of what your neighbours make, take an average, and predict that you have a household income of $81,750.&lt;/p&gt;
 &lt;p&gt;This is an extremely basic explanation of how KNN algorithms work. But how do we decide who someone&amp;rsquo;s &amp;ldquo;neighbours&amp;rdquo; are when we aren&amp;rsquo;t talking about literal neighbours? That is, how do we know what other observations are similar to our target? Enter: distance metrics. The most common distance metric in for knn regression problems is 
@@ -728,7 +728,7 @@ for k,v in k_rmse_results_2.items():
     
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;div class=figure&gt;&lt;img src=https://dwiwad.github.io/project/Car_Prices/output_27_0.png&gt;&lt;/div&gt;
+&lt;div class=figure&gt;&lt;img src=/project/Car_Prices/output_27_0.png&gt;&lt;/div&gt;
 &lt;p&gt;The pattern you can discern just looking at the numbers becomes clear here when looking at the graph. The best models for any given set of predictors is right around a k of 3-5. Once we start adding more than that, the performance of the model gets worse.&lt;/p&gt;
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;So, we&amp;rsquo;ve learned a lot about how to run a KNN regression using python, how to tweak paramaters like the number of predictors in a model and the number of neighbors we use, and how to evaluate those models.&lt;/p&gt;
