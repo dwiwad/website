@@ -11,7 +11,7 @@ share = false
 </DIV>
 
 <p align="justify">
-My goal when teaching is not only to foster a meaningful understanding of course content, but to ensure that students leave the classroom with knowledge they can confidently and successfully apply to their own lives. Over five years of teaching undergraduates at Simon Fraser University, and the past year of teaching MBA students at Kellogg School of Management, I have developed the two core philosophies of Learning by Doing and Inclusive Teaching in service of this goal. 
+My goal when teaching is not only to foster a meaningful understanding of course content, but to ensure that students leave the classroom with knowledge they can confidently and successfully apply to their own lives. Over five years of teaching undergraduates at Simon Fraser University, and the past two years of teaching MBA students at Kellogg School of Management, I have developed the two core philosophies of Learning by Doing and Inclusive Teaching in service of this goal. 
 </p>
 
 You can see my full teaching philosophy [here](/files/Teaching_Phil.pdf).
@@ -22,7 +22,7 @@ You can see my full teaching philosophy [here](/files/Teaching_Phil.pdf).
 </DIV>
 
 ## Kellogg School of Management
-<div style="padding-left: 2em;"><a href="/files/negotiations_syllabus.pdf">Negotiation Fundamentals, Part-Time MBA, Summer 2020</a></div>
+<div style="padding-left: 2em;"><a href="/files/negotiations_syllabus.pdf">Negotiation Fundamentals, Full-Time and Part-Time MBA, Summer 2020 - 2022 </a>(x7)</div>
 
 ## Simon Fraser University
 <div style="padding-left: 2em;"><a href="/files/social_syllabus.pdf">Introduction to Social Psychology, Winter 2019</a></div>

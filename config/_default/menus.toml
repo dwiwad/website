@@ -10,23 +10,28 @@
 
 [[main]]
   name = "Research"
-  url = "/Publications_citestyle/"
+  url = "/Research/"
   weight = 20
+  
+[[main]]
+  name = "Publications"
+  url = "/Publications_citestyle/"
+  weight = 30
 
 [[main]]
   name = "Teaching"
   url = "/teaching/"
-  weight = 30
+  weight = 40
   
 [[main]]
   name = "Collaborators"
   url = "/collaborators/"
-  weight = 40
+  weight = 50
 
 [[main]]
   name = "Blog + Popular Press"
   url = "/project/"
-  weight = 50
+  weight = 60
 
 
 # Link to a PDF of your resume/CV from the menu.

@@ -6,28 +6,21 @@ draft = false
 share = false
 +++
 <DIV align="center">
-  <h1>My Research</h1>
-</DIV>
-
-<p align = "justify">
-My research identifies the key role that organizations play in understanding economic inequality: they not only create and maintain economic inequality but are also uniquely susceptible to many of the negative consequences that arise when economic inequality approaches unproductive levels (e.g., higher health care costs, higher employee turnover, unhappier and less productive workers). 
-</p>
-
-<p align = "justify">
-In particular, my research has (i) uncovered various psychological mechanisms (e.g., income mobility, attributions for poverty) that legitimize inequality, (ii) tested how, when, and what interventions (e.g., perspective taking, cross-class contact) can promote egalitarian behavior and mitigate the negative consequences of economic inequality. 
-</p>
-
-You can see my full research statement [here](/files/research.pdf).
-
-<DIV align="center">
   <h1>Peer Reviewed Publications</h1>
 </DIV>
+
+<DIV align="center">
+  <h2>2021</h2>
+</DIV>
+
+**Wiwad, D.**, Mercier, B., Piff. P. K., Aknin, L. B., Mercier, B., & Shariff, A. F. (2021). Recognizing the impact of COVID-19 on the poor alters attitudes towards poverty and inequality. *Journal of Experimental Social Psychology, 93*, 104083. [doi.org/10.1016/j.jesp.2020.104083](/files/jesp_2021.pdf)
+<p align="right"><a href="https://osf.io/8byzd/">Data, Materials, and Code</a></p>
+
+***
+
 <DIV align="center">
   <h2>2020</h2>
 </DIV>
-
-**Wiwad, D.**, Mercier, B., Piff. P. K., Aknin, L. B., Mercier, B., & Shariff, A. F. (2020). Recognizing the impact of COVID-19 on the poor alters attitudes towards poverty and inequality. *Journal of Experimental Social Psychology, 93*, 104083. [doi.org/10.1016/j.jesp.2020.104083](/files/jesp_2021.pdf)
-<p align="right"><a href="https://osf.io/8byzd/">Data, Materials, and Code</a></p>
 
 Piff. P. K\*., & **Wiwad, D.**\*, Robinson, A. R., Aknin, L. B., Mercier, B., & Shariff, A. F. (2020). Shifting attributions for poverty motivates opposition to inequality and enhances egalitarianism. *Nature Human Behavior, 4*, 496-505. [doi.org/10.1038/s41562-020-0835-8](/files/nhb_2020.pdf)
 <p align="right"><a href="https://osf.io/s8f7r/">Data, Materials, and Code</a></p>

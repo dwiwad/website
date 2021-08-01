@@ -83,7 +83,7 @@ user_groups:
 ## About Me
 
 <p align="justify">
-I am a Postdoctoral Fellow in the <a href="https://www.kellogg.northwestern.edu/research/dispute-resolution-research-center.aspx">Dispute Resolution Research Center</a> of the <a href="https://www.kellogg.northwestern.edu/faculty/academics/management-and-organizations.aspx">Management and Organizations Department</a> of the <a href="https://www.kellogg.northwestern.edu/">Kellogg School of Management, Northwestern University</a>
+I am a Postdoctoral Fellow in the <a href="https://www.kellogg.northwestern.edu/research/dispute-resolution-research-center.aspx">Dispute Resolution Research Center</a> of the <a href="https://www.kellogg.northwestern.edu/faculty/academics/management-and-organizations.aspx">Management and Organizations Department</a> at the <a href="https://www.kellogg.northwestern.edu/">Kellogg School of Management, Northwestern University</a>
 </p>
 
 <p align="justify">
